@@ -141,13 +141,15 @@ section{
    border-bottom: var(--border);
 }
 
-.header .flex{
+.header .flex {
    display: flex;
+   background: linear-gradient(to right, #ea7a0a, white, #109105); /* Saffron, white, and green */
    align-items: center;
    justify-content: space-between;
    position: relative;
    padding: 1.5rem 2rem;
 }
+
 
 .header .flex .logo img{
    /* font-size: 2.5rem; */
