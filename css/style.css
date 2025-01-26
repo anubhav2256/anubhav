@@ -375,10 +375,28 @@ section{
    font-size: 1.5rem;
 }
 
-.home-grid .box-container .flex a i{
+/* .home-grid .box-container .flex a i{
    margin-right: 1rem;
-   /* color:var(--black); */
-   color: #370bd8;
+    color:var(--black); 
+} */
+
+.html{
+   color: red;
+}
+.css{
+   color: rgb(10, 32, 230);
+}
+.javascript{
+   color:rgb(13, 178, 43) ;
+}
+.react{
+   color: blue;
+}
+.php{
+   color: #0b44fe;
+}
+.bootstrap{
+   color: rgb(88, 8, 186);
 }
 
 .home-grid .box-container .flex a span{
