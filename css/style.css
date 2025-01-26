@@ -148,6 +148,9 @@ section{
    justify-content: space-between;
    position: relative;
    padding: 1.5rem 2rem;
+   width: 100%;
+   max-width: 100%;
+   margin: 0 auto; /* Center the content */
 }
 
 
@@ -350,6 +353,8 @@ section{
    padding:2rem;
 }
 
+/* srmu,aktu popular updates titel color */
+
 .home-grid .box-container .box .title{
    font-size: 2rem;
    color: var(--black);
@@ -372,11 +377,15 @@ section{
 
 .home-grid .box-container .flex a i{
    margin-right: 1rem;
-   color:var(--black);
+   /* color:var(--black); */
+   color: #370bd8;
 }
 
 .home-grid .box-container .flex a span{
-   color:var(--light-color);
+   /* color:var(--light-color); */
+   color: #000000;
+   font-weight: 500;
+   font-size: medium;
 }
 
 .home-grid .box-container .flex a:hover{
