@@ -156,6 +156,103 @@
 </section>
 
 
+
+<div class="resource-item">
+   
+   <a href="https://chatgpt.com/" class="download-button">
+       <img src="https://w7.pngwing.com/pngs/704/673/png-transparent-openai-chatgpt-logo-thumbnail.png" alt="" style="width: 23px; vertical-align: middle;"> chat gpt
+   </a>
+   
+ </div>
+
+
+
+<style>
+
+   .resource-item {
+   background-color: #f1f1f1;
+   padding: 1rem;
+   border-radius: 0 8px 8px 0; /* Adds curve to the right side */
+   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+   display: inline-block;
+ }
+ 
+ 
+ .resource-item h3 {
+   color: #000000;
+ }
+ 
+ .resource-item a {
+   display: inline-block;
+   margin-top: 0.5rem;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-weight: bold;
+ }
+ 
+ 
+ /* Download Button Styles */
+ .download-button {
+   display: inline-block;
+   padding: 0.7rem 1rem;
+   margin-top: 0.2rem;
+   color: #ce1515;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-decoration: none;
+   border-radius: 30px;
+   position: relative;
+   overflow: hidden;
+   background: linear-gradient(45deg, #ffffff, #dadada);
+   transition: color 0.3s ease;
+   box-shadow: 0 3px 15px rgba(196, 196, 196, 0.297);
+ }
+ 
+ .download-button::before {
+   content: '';
+   position: absolute;
+   top: -50%;
+   left: -50%;
+   width: 200%;
+   height: 200%;
+   background: linear-gradient(
+     120deg,
+     transparent,
+     rgba(255, 255, 255, 0.5),
+     transparent
+   );
+   animation: light-move 2.5s infinite;
+   transition: all 0.3s ease;
+ }
+ 
+ .download-button:hover {
+   color: #000000;
+ }
+ 
+ .download-button:hover::before {
+   animation: light-move 1.5s infinite;
+ }
+ 
+ /* Keyframes for moving light effect */
+ @keyframes light-move {
+   0% {
+     transform: translateX(-100%) translateY(-100%);
+   }
+   50% {
+     transform: translateX(100%) translateY(100%);
+   }
+   100% {
+     transform: translateX(-100%) translateY(-100%);
+   }
+ }
+</style>
+
+
+ 
+
+
+<br><br>
+
 <section class="courses">
 
    <h1 class="heading">our courses</h1>
