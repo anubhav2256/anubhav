@@ -143,7 +143,7 @@ section{
 
 .header .flex {
    display: flex;
-   background: linear-gradient(to right, #ea7a0a, white, #109105); /* Saffron, white, and green */
+   background: linear-gradient(to right, #e8e7e5, white, #f8f8f8); /* Saffron, white, and green */
    align-items: center;
    justify-content: space-between;
    position: relative;
@@ -157,8 +157,8 @@ section{
 .header .flex .logo img{
    /* font-size: 2.5rem; */
    /* color: var(--black); */
-   width: 60px;
-   height: 60px;
+   width: 55px;
+   height: 55px;
    border-radius: 70%;
 
 }
